@@ -131,8 +131,19 @@
         <div class="col-md-6 mb-4">
             <div class="card p-3">
                 <h5>SQL Data Warehouse Project</h5>
-                <p><strong>Result:</strong> Improved reporting efficiency.</p>
+                <p><strong>Architecture:</strong> Implemented a Medallion Architecture framework to structure data processing and improve data quality across layers.</p>
+
+                <p><strong>🥉 Bronze Layer (Raw Data):</strong><br>
+                Ingested raw data from CSV files into SQL Server without transformation, ensuring data is preserved in its original state for traceability and auditing.</p>
+                
+                <p><strong>🥈 Silver Layer (Cleaned & Transformed Data):</strong><br>
+                Performed data cleansing, handled missing values and inconsistencies, and applied standardization and normalization techniques to improve data quality and consistency.</p>
+                
+                <p><strong>🥇 Gold Layer (Business-Ready Data):</strong><br>
+                Modeled data into a Star Schema with fact and dimension tables, optimized for efficient querying, reporting, and business intelligence analysis.</p>
+                <p><strong>Result:</strong> Improved data organization, reduced redundancy, and enabled faster and more reliable reporting.</p>
                 <a href="https://github.com/Jonathan-Analyst/sql-data-warehouse-project" target="_blank">GitHub</a>
+                
             </div>
         </div>
 
